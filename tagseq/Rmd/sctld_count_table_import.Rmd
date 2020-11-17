@@ -53,6 +53,7 @@ Desktop/
 
 ```{r Making Salmon Vectors Names ofav, include=FALSE}
 #Loading quantification data output from the slippery Salmon
+setwd("~/Desktop/SCTLD_analysis/ofav_salmon_quant")
 ofavall <- list.files(path = "~/Desktop/SCTLD_analysis/ofav_salmon_quant//", full.names = F, pattern = "\\_salmon$")
 
 FILESofav <- file.path(ofavall, "quant.sf")
